@@ -8,6 +8,7 @@ vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>')
 -- remap ; to : for easier quit/write etc
 vim.keymap.set('n', ';', ':')
 vim.keymap.set('n', '.', ';')
+vim.keymap.set('n', '<leader>bb', '<C-^><CR>')
 
 -- Diagnostic keymaps
 vim.keymap.set('n', '[d', vim.diagnostic.goto_prev, { desc = 'Go to previous [D]iagnostic message' })
